@@ -1,0 +1,15 @@
+{
+  "short_name": "CodeXClear",
+  "name": "CodeXClear — IT & Technology Services",
+  "description": "Modern IT services and digital products from Lucknow, India.",
+  "icons": [
+    { "src": "/logo.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/logo.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0B2AAA",
+  "background_color": "#06101a",
+  "orientation": "any",
+  "categories": ["business", "productivity"]
+}

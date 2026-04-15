@@ -1,0 +1,25 @@
+/* App shell */
+.app-main {
+  min-height: 100vh;
+  padding-top: 68px; /* navbar height */
+  background: var(--bg-base);
+  color: var(--text-primary);
+}
+
+/* Page loader */
+.page-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: var(--bg-base);
+}
+.page-loader__spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 174, 239, 0.2);
+  border-top-color: var(--accent-1);
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
